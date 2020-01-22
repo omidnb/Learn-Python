@@ -16,3 +16,6 @@ print(text)
 
 paragraph = text * 3
 print(paragraph)
+
+print(type(paragraph))
+print(type(num_4))
