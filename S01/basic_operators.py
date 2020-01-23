@@ -7,7 +7,7 @@ num_4 = num_3 * num_2
 print(num_3)
 print(num_4)
 
-#string operators
+# string operators
 word_1 = "Hello "
 word_2 = "World."
 
