@@ -1,4 +1,4 @@
-# /mft-vanak/S05/string_methods
+# https://github.com/pymft/mft-vanak/tree/master/S05/string_methods
 text = "Hello"
 
 txt1 = text.upper()
