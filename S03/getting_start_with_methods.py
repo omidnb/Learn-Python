@@ -50,3 +50,28 @@ print(lst.append("taylor"))  # none
 
 lst.append("taylor")
 print(lst)  # shows taylor
+
+lst.append("taylor")
+lst.append("JAFAR")
+lst.append("taylor")
+print(lst)
+
+lst.remove("taylor")
+print(lst)  # removed first 'taylor' from left
+
+# lst.append("a", "b")  ERROR!
+lst.extend(["a", "b"])
+print(lst)
+
+lst2 = lst.copy()  # COPY doesn't keep main address
+lst3 = lst
+
+lst3.append("1000000")
+print(lst)  # '1000000' at the end
+print(lst2)  # '1000000' didn't append
+print(lst3)  # '1000000' at the end
+
+lst.pop(3)  # removed index 3
+print(lst)
+print(lst2)  # nothing changed because we used COPY to create lst2 and it didn't keep lst address
+print(lst3)
