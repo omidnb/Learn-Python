@@ -7,3 +7,11 @@ print(res2)
 print(res1.__sizeof__())
 print(res2.__sizeof__())
 
+lst = [1, 2, 3]
+x = iter(lst)
+print(next(x))
+print(next(x))
+print(next(x))
+
+for value in range(5, 10, 2):  # from 5 to 10, 2 by 2
+    print("*", value)
