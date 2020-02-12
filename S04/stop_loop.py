@@ -7,3 +7,13 @@ while i < y:
     #     break
 else:
     print("this 'else' is for 'while'")  # instead of if break
+
+
+# fibonacci
+limit = 20
+list_fib = [1, 1]
+
+while len(list_fib) < limit:
+    new_element = list_fib[-1] + list_fib[-2]
+    list_fib.append(new_element)
+print(list_fib)
