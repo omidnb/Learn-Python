@@ -8,7 +8,6 @@ while i < y:
 else:
     print("this 'else' is for 'while'")  # instead of if break
 
-
 # # fibonacci
 # limit = 20
 # list_fib = [1, 1]
@@ -23,3 +22,9 @@ for x in range(10):
     res = fib[-1] + fib[-2]
     fib.append(res)
     print(res)
+
+#   another way for fib
+a, b = 1, 1
+for i in range(10):
+    a, b = b, a + b
+    print(b)
