@@ -1,11 +1,10 @@
 answer = input("enter a number: ")
 if answer.isdigit():
-    num = int(answer)
     print("done")
 else:
     print("invalid")
 
-
+number = int(answer)
 if number % 3 == 0:
     print("3K")
 elif number % 3 == 1:
