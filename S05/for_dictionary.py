@@ -17,7 +17,3 @@ for v in dct.values():  # default is dct.keys
 
 for ke, va in dct.items():
     print(k, v)
-
-dct2 = {
-    'k1':
-}
