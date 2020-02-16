@@ -8,3 +8,6 @@ word_counter = lambda text: len(text.split())
 n = word_counter("all i have in this world is my balls and my word and i don't break them for no one")
 print(n)
 
+# abcd --> abcddcba
+mirror = lambda text: text + text[::-1]
+print(mirror("abcd"))
