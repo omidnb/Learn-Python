@@ -1,6 +1,7 @@
 f = lambda x: x ** 3
 print(f(2))
 
+# print((lambda n: n % 2 == 0)(16))    **this line is same as line belowe**
 is_even = lambda n: n % 2 == 0
 print(is_even(16))
 
@@ -11,3 +12,8 @@ print(n)
 # abcd --> abcddcba
 mirror = lambda text: text + text[::-1]
 print(mirror("abcd"))
+
+# another example
+lst = [1, 2, 3, 4]
+test_1 = lambda s: len(s) ** 2
+print(test_1(lst))
